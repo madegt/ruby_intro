@@ -8,4 +8,27 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+#loop w the number of elements in the array and then break on the array
+
+# start 
+index = 0 
+
+# loop: loop until number of elements == index 
+#start loop
+
+loop do
+    #end loop    
+    if tacos.length == index
+    break
+    end
+
+#print the output
+puts "Eat #{tacos [index]} tacos!"
+
+#increment the index 
+index = index + 1
+end
+
+
