@@ -31,4 +31,8 @@ puts "Eat #{tacos [index]} tacos!"
 index = index + 1
 end
 
+#other way = taco is a vairable name, could be anything, each in the arrway will be called this way
+for taco in tacos 
+    puts "Eat #{taco} tacos!"
+end
 
