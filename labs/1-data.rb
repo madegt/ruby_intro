@@ -23,14 +23,14 @@ first_die = rand(1..6)
 second_die = rand(1..6)
 
 #Store the total of both in memory
-total_dices =  x+y
+total_dices =  first_die+second_die
 
 #Write the 1die in ux way
-puts first_die
+puts "First die: #{first_die}"
 
 #Write the 2nd die in ux way
-puts second_die
+puts "Second die: #{second_die}"
 
 #Write the total in uxfriendly way
-puts total_dices
+puts "Total: #{total_dices}"
 
