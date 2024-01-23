@@ -19,7 +19,11 @@ me = {
         "state" => "Illinois"
     },
     "genre" => "F",
-}
+    "timeline" => [
+        {"status"=> "Eating lunch tacos","posted"=>"12pm"},
+        {"status"=> "Eating dinners","posted"=>"6pm"}
+    ]
+    }
 
 # #see it
 # puts me
@@ -30,3 +34,5 @@ puts me["name"]
 #see city
 puts me["location"]["city"]
 
+#see the eating lunch tacos
+puts me["timeline"][0]["status"]
