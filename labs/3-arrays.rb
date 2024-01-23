@@ -15,3 +15,36 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+
+#Create my list
+made_list = [
+    "ceviche",
+    "aji de gallina",
+    "lomo saltado"
+]
+
+#Create friends list
+alan_list = [
+"tacos",
+"ribs",
+"hamburguers",
+"cheesecake"
+]
+
+#Combine lists = aca con el otro, no podria ordenar pq ordeno con el primer item, no los elementos individuales 
+comb_list= made_list + alan_list
+
+#only unique
+unique_list = comb_list.uniq
+
+#Sort result alphabetically = solo funciona con la suma, no la creacion
+sorted_list = unique_list.sort
+
+#Agg buy to the list
+puts "Buy #{sorted_list[1]}"
+puts "Buy #{sorted_list[2]}"
+puts "Buy #{sorted_list[3]}"
+puts "Buy #{sorted_list[4]}"
+puts "Buy #{sorted_list[5]}"
+puts "Buy #{sorted_list[6]}"
