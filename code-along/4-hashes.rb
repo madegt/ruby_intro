@@ -7,3 +7,26 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+#mutlidimensional object =  table
+#1 object like a license and below are the characteristics as variables
+
+#my profile
+me = {
+    "name"=> "Made",
+    "location"=> {
+        "city" => "Evanston",
+        "state" => "Illinois"
+    },
+    "genre" => "F",
+}
+
+# #see it
+# puts me
+
+#see my name
+puts me["name"]
+
+#see city
+puts me["location"]["city"]
+
