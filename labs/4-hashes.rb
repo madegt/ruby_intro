@@ -29,4 +29,12 @@ bitcoin = gets.chomp
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-# puts bitcoin_data
+#puts bitcoin_data
+
+#4. Find price of bitcoin x number of bitcoin
+puts bitcoin_data["bpi"]["USD"]["rate_float"] * bitcoin
+
+#5. PARA CORRER DEBES PONER EL INPUT EN EL TERMINAL 
+ 
+
+
