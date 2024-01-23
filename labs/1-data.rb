@@ -17,20 +17,20 @@
 # puts "Hello, world"
 
 #Store a random number for the 1st die
-x = rand(1..6)
+first_die = rand(1..6)
 
 #Store a random number for the 2nd die
-y = rand(1..6)
+second_die = rand(1..6)
 
 #Store the total of both in memory
-total =  x+y
+total_dices =  x+y
 
 #Write the 1die in ux way
-puts x
+puts first_die
 
 #Write the 2nd die in ux way
-puts y
+puts second_die
 
 #Write the total in uxfriendly way
-puts total
+puts total_dices
 
